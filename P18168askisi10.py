@@ -1,5 +1,5 @@
 import urllib2
-dief=raw_input("Δώσε διευθηνση σελιδας με http:")
+dief=raw_input("dwse url me http:")
 req1=urllib2.Request(dief)
 html=urllib2.urlopen(req1).read()
 sind=0#Gia Sindesmous
