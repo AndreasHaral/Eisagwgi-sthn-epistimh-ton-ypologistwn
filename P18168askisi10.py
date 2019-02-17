@@ -1,5 +1,5 @@
 import urllib2
-dief=raw_input("Δώσε διευθηνση σελιδας με http:")
+dief=raw_input("Γ„ΓΎΓ³Γ¥ Γ¤Γ©Γ¥ΓµΓ¨Γ§Γ­Γ³Γ§ Γ³Γ¥Γ«Γ©Γ¤Γ΅Γ² Γ¬Γ¥ http:")
 req1=urllib2.Request(dief)
 html=urllib2.urlopen(req1).read()
 sind=0#Gia Sindesmous
@@ -16,7 +16,8 @@ class class1(HTMLParser):
 
 help1=class1()
 help1.feed(html)
-print (sind,sumbrp)
+print ('Gia Sindesmoys',sind)
+print('Gia Br h P',sumbrp)
             
 
 
